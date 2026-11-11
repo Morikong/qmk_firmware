@@ -1,4 +1,4 @@
-/* Copyright 2024 @ Keychron(https://www.keychron.com)
+/* Copyright 2025 ~ 2026 @ Keychron(https://www.keychron.com)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -7,11 +7,11 @@
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
 #pragma once
@@ -22,3 +22,11 @@
 #define I2C1_CLOCK_SPEED 400000
 #define I2C1_DUTY_CYCLE FAST_DUTY_CYCLE_2
 
+/* Custom keycodes */
+#define CUSTOM_KEYCODES_ENABLE
+
+/*  OS Toggle */
+#define KEYCOMBO_OS_TOGGLE_ENABLE
+#define KEYCOMBO_OS_TOGGLE_INDICATION_ENABLE
+#define MAC_BASE_LAYER 0
+#define WIN_BASE_LAYER 2
